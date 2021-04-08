@@ -1,3 +1,4 @@
+pipwin
 pyaudio
 pttsx3
 SpeechRecognition
