@@ -1,0 +1,2 @@
+pyaudio
+pttsx3
