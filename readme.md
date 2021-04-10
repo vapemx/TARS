@@ -1,5 +1,6 @@
 # TARS
-This is a virtual assintant. 
+
+This is a virtual assintant.
 Now in progress.
 
 ## Installation
@@ -9,7 +10,21 @@ Now in progress.
 - Linux:
 
   `sudo apt install espeak`
-  `pip install -r requeriments.txt`
+\
+  `pip install pyaudio`
+\
+  `pip install pttsx3`
+\
+  `pip install SpeechRecognition`
+<br>
 - Windows:
- 
-  `pip install -r requeriments_win.txt`
+
+  `pip install pipwin`
+\
+  `pip install pyaudio`
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In case you can´t install pyaudio, [check this tutorial](https://stackoverflow.com/questions/52283840/i-cant-install-pyaudio-on-windows-how-to-solve-error-microsoft-visual-c-14)
+\
+  `pip install pttsx3`
+\
+  `pip install SpeechRecognition`

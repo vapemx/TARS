@@ -13,7 +13,9 @@ def main():
         print("Puedes hablar...")
         audio = r.listen(source)
         text = r.recognize_google(audio, language="es-MX")
+    print(text)
     user_name = know_user_name(text, engine)
+
 
 def know_user_name(text, engine):
     user_name = None
@@ -22,7 +24,7 @@ def know_user_name(text, engine):
         try:
             user_name = re.findall(pattern, text)
             print(user_name[0])
-            engine.say("Hola, {} espero tengas un buen día".format(user_name[0]))
+            engine.say("Hola {}, espero tengas un buen día".format(user_name[0]))
             engine.runAndWait()
             return user_name[0]
         except IndexError:
